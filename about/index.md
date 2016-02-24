@@ -3,7 +3,8 @@ layout: page
 title: About me
 tags: [about]
 modified: 2016-02-24
-comments: true
+share: false
+comments: false
 ---
 
 # Hi there!
