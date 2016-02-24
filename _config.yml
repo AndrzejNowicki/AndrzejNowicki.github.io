@@ -50,8 +50,8 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics:
-    verify:
+    analytics: UA-21028924-1
+    verify: Rtt7yusVDZwG-rnvASiGFdDby1m3fMwmXHZrWLVcCwY
     ad-client:
     ad-slot:
   bing-verify:
