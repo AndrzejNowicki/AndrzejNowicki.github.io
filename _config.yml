@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Andrzej Nowicki
 locale:           en_US
 url:
 
@@ -41,7 +41,7 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Andrzej Nowicki
   avatar: bio-photo.jpg
   bio: "Describe your self."
   email:
