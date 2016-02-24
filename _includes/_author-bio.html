@@ -32,7 +32,7 @@
   {% if author.weibo %}<a href="http://www.weibo.com/{{ author.weibo }}" class="author-social" target="_blank"><i class="fa fa-fw fa-weibo"></i> Weibo</a>{% endif %}
   {% if author.flickr %}<a href="http://www.flickr.com/{{ author.flickr }}" class="author-social" target="_blank"><i class="fa fa-fw fa-flickr"></i> Flickr</a>{% endif %}
   {% if author.codepen %}<a href="http://codepen.io/{{ author.codepen }}" class="author-social" target="_blank"><i class="fa fa-fw fa-codepen"></i> CodePen</a>{% endif %}
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22883533-5c7d-4acf-9053-49961e2190ba"></div>
+  {% if author.acclaim %} <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="{{ author.acclaim }}"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
@@ -43,16 +43,5 @@
       o.parentNode.insertBefore(s, o);
       })();
   </script>
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e514cd5f-8e69-4a47-ad02-1cb8f434b741"></div>
-  <script type="text/javascript">
-    (function() {
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = '//www.youracclaim.com/assets/utilities/embed.js';
-      var o = document.getElementsByTagName('script')[0];
-      o.parentNode.insertBefore(s, o);
-      })();
-  </script>
-
+  {% endif %}
 </div>
