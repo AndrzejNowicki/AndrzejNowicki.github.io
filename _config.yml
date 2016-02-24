@@ -2,7 +2,7 @@
 
 title:            Andrzej Nowicki
 locale:           en_US
-url:
+url:              http://www.andrzejnowicki.pl
 
 
 # Jekyll configuration
@@ -43,7 +43,7 @@ titlecase: true
 owner:
   name: Andrzej Nowicki
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Oracle Database Administrator with experience in Oracle RAC and DataGuard technologies"
   email: contact@andrzejnowicki.pl
   disqus-shortname:
   twitter: #username
@@ -55,7 +55,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: AndrzejNowicki
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: andrzejnowicki
   xing: #username
