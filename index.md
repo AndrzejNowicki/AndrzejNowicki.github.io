@@ -8,3 +8,4 @@ tags: [oracle]
 
 Welcome to my homepage. You can start by reading [about me](about/) section or check out my recent posts below.
 
+Also, my ppresentation slides are available here](slides/) 
